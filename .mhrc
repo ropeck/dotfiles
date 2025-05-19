@@ -1,0 +1,5 @@
+# ~/.mhrc
+alias scan='gh issue list --assignee @me --state open --repo ropeck/tracker-notes'
+alias show='gh issue view --repo ropeck/tracker-notes'
+alias repl='gh issue comment --repo ropeck/tracker-notes'
+alias inc='gh issue create --repo ropeck/tracker-notes -e vim'
