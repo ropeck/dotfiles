@@ -30,7 +30,31 @@ Block 2: Finalize Shell Tools
 ## code to look at
 
 * atuin
+    https://docs.atuin.sh/guide/installation/
+    ```
+    brew install atuin
+    ```
 * zoxide
-* prompt theme
+    ```
+    brew install zoxide
+    ```
+* prompt theme - oh my posh  prompt config
+
 * GitHub CLI
-  
+    ```
+    brew install gh
+    ```
+    ** this requires the github auth token as well **
+
+    
+## Fonts
+* installed BitstromWeraNerd fonts
+https://www.nerdfonts.com
+
+https://www.nerdfonts.com/font-downloads
+
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/BitstreamVeraSansMono.zip
+
+brew install --cask font-<FONT NAME>-nerd-font
+
+brew install --cask font-bitstream-vera-sans-mono-nerd-font

@@ -126,7 +126,9 @@ export MANPATH=$HOME/.local/share/man:$MANPATH
 source $HOME/.mhrc   # set up github issue commands like mh
 eval "$(oh-my-posh init bash --config ~/.omp-theme.json)"
 
-. "$HOME/.atuin/bin/env"
+if [ -d $HOME/.atuin ]; then
+  . "$HOME/.atuin/bin/env"
+fi
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
